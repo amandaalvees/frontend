@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d1d1d1; 
+    color: #333;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;            
+    margin: 0;
+  }
+  
+  /* Contêiner principal */
+  .container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;           
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Título */
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  /* Estilização dos inputs */
+  input {
+    width: 100%;  
+    padding: 10px;
+    margin: 10px 0;          
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; 
+    outline: none;         
+  }
+  
+  input:focus {
+    border-color: #0056b3;  
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.2); 
+  }
+  
+  /* Estilização do botão */
+  button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #003d7a; 
+  }
+  
+  /* Lista  */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  li button {
+    background-color: #e74c3c;  
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color: #c0392b; 
+  }
+  
+  /* Botão de editar */
+.edit-button {
+  background-color: #4CAF50;  
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 10px;  
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: #388E3C; 
+}
+
+/* Estilização do botão de excluir */
+.delete-button {
+  background-color: #E74C3C; 
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-button:hover {
+  background-color: #C0392B;  
+}
+
+/* Pequeno espaço entre os botões */
+button {
+  margin-left: 5px; 
+}
