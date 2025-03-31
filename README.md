@@ -29,4 +29,4 @@ Este é o frontend do projeto de gerenciamento de produtos, desenvolvido com Rea
 Clone o repositório para sua máquina local:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio-frontend.git
+git clone https://github.com/amandaalvees/frontend.git
